@@ -1,0 +1,44 @@
+{
+  "name": "Rupesh Chaudhari",
+  "short_name": "Rupesh Chaudhari",
+  "description": "The Official App for Rupesh Chaudhari",
+  "lang": "en",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#4a4a4ad9",
+  "icons": [
+    {
+      "src": "images/rc-logo.png",
+      "sizes": "663 x 663"
+    },
+    {
+      "src": "images/rc-logo.png",
+      "sizes": "512 x 512"
+    },
+    {
+      "src": "images/rc-logo.png",
+      "sizes": "256 x 256"
+    },
+    {
+      "src": "images/rc-logo.png",
+      "sizes": "128 x 128"
+    },
+    {
+      "src": "images/rc-logo.png",
+      "sizes": "64 x 64"
+    },
+    {
+      "src": "images/rc-logo.png",
+      "sizes": "32 x 32"
+    },
+    {
+      "src": "images/rc-logo.png",
+      "sizes": "16 x 16"
+    },
+    {
+      "src": "images/rc-logo.png",
+      "sizes": "8 x 8"
+    }
+  ],
+  "prefer_related_applications": true
+}

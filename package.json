@@ -1,0 +1,19 @@
+{
+  "name": "rupesh",
+  "version": "1.0.0",
+  "description": "The Official App of Rupesh Chaudhari",
+  "main": "js/main.js",
+  "scripts": {
+    "run-server": "http-server -p 1234 build -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrupesh/new_portfolio.git"
+  },
+  "author": "Rupesh Chaudhari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrupesh/new_portfolio/issues"
+  },
+  "homepage": "https://github.com/hrupesh/new_portfolio#readme"
+}

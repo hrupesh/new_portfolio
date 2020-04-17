@@ -68,6 +68,17 @@
 
   </head>
   <body>
+    <script>
+
+      if('serviceWorker' in navigator){
+          window.addEventListener('load',() => {
+              navigator.serviceWorker.register('/sw.js');
+              console.log('reg');
+          });
+      }
+
+    </script>
+    
 
     <div class="KW_progressContainer">
       <div class="KW_progressBar">

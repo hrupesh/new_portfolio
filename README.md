@@ -1,2 +1,2 @@
-# Repositary of my Portfolio
-# Visit at <a href="https://rupesh.cf/"> Here</a>
+# Repository of my Portfolio
+## Visit <a href="https://rupesh.cf/"> Here</a>

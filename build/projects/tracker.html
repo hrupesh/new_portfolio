@@ -9,6 +9,13 @@
       rel="stylesheet"
     />
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+
+        transition: all 2s;
+      }
+
       .loader {
         width: 25vw;
         height: 50vh;
@@ -17,6 +24,22 @@
       @media (max-width: 500px) {
         .loader {
           width: 75vw;
+        }
+      }
+
+      .clock {
+        animation-name: rotate;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(180deg);
         }
       }
     </style>
@@ -36,6 +59,7 @@
     <h1 style="text-align: center; color: #512df8;">
       Downloading APK <br />
       Please wait ............
+      <div class="clock">⏳</div>
     </h1>
     <img
       class="loader"

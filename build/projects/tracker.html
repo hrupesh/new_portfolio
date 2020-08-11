@@ -32,6 +32,38 @@
         animation-duration: 2000ms;
         animation-iteration-count: infinite;
         animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        margin: 20px;
+      }
+
+      .clock2 {
+        animation-name: rotate;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        margin: 20px;
+        animation-delay: 500ms;
+      }
+
+      .clock3 {
+        animation-name: rotate;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        margin: 20px;
+        animation-delay: 1000ms;
+      }
+
+      .clock4 {
+        animation-name: rotate;
+        animation-duration: 2000ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+        margin: 20px;
+        animation-delay: 1500ms;
       }
 
       @keyframes rotate {
@@ -39,7 +71,7 @@
           transform: rotate(0deg);
         }
         to {
-          transform: rotate(180deg);
+          transform: rotate(360deg);
         }
       }
     </style>
@@ -58,8 +90,13 @@
   >
     <h1 style="text-align: center; color: #512df8;">
       Downloading APK <br />
-      Please wait ............
-      <div class="clock">⏳</div>
+      Please wait ............ <br />
+      <div style="display: flex; flex-direction: row;">
+        <div class="clock">⏳</div>
+        <div class="clock2">⏳</div>
+        <div class="clock3">⏳</div>
+        <div class="clock4">⏳</div>
+      </div>
     </h1>
     <img
       class="loader"
